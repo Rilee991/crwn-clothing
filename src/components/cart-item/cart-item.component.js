@@ -3,7 +3,6 @@ import React from 'react';
 import './cart-item.styles.scss';
 
 const CartItem = ({ item: { imageUrl, name, quantity, price } }) => {
-    console.log(imageUrl, name, quantity, price);
     return (
         <div className='cart-item'>
             <img src={imageUrl} alt='item'/>
